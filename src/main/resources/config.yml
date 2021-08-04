@@ -1,0 +1,28 @@
+noperms: "&c&lROLEPLAYUTILS &8» &fYou don't have the permission!"
+PvP:
+  only-plugins-pvp: true
+  vanilla-pvp: false
+  deathlogger:
+    enabled: true
+    permission: "roleplayutils.deathlogger.receive"
+    message: "<killer> has killed <player>"
+    log-in-console: true
+Broadcasts:
+  command: "bcr"
+  permission: "roleplayutils.broadcast.execute"
+  broadcast: "&3&lRoleplay&b&lUtils &8- &3<message>"
+  use: "&c&lROLEPLAYUTILS &7» &fUse: /bcr <message>"
+  cooldown:
+    enabled: true
+    message: "&c&lROLEPLAYUTILS &7» &fYou need to wait &c<seconds>&f to execute this command!"
+    delay-in-seconds: 10
+Warning:
+  command: "warning"
+  permission: "roleplayutils.warning.execute"
+  prefix: "&4&lWARNING &8» &f"
+  use: "Use: /warning <player>"
+  not-online: "This player is not online!"
+  message: "You have warned <player>"
+  message-player: "You have been warned by <player>"
+  title: "&4&lSTOP OR SHOOT"
+  title-subtitle: ""

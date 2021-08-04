@@ -1,0 +1,6 @@
+name: RoleplayUtils
+version: ${project.version}
+main: dev.imfound.roleplayutils.RoleplayUtils
+authors: [ ImFound ]
+description: Some utils for RolePlay server(s).
+website: ImFound.dev
